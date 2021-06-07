@@ -15,7 +15,7 @@ public class Main {
 
         long startSecond = System.currentTimeMillis();
         StringBuilder d = new StringBuilder("aaabbbccc");
-        for (int i = 0; i<10000000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             d.append("aaabbbccc");
         }
         System.out.println(d);
